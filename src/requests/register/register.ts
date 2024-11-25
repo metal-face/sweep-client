@@ -24,11 +24,6 @@ export default async function register({
             last_name: lastName,
             organization_name: organizationName,
             invite_code: inviteCode,
-            gitlab_details: {
-                gitlab_name: "",
-                gitlab_email: "",
-                access_token: "",
-            },
         }),
     });
 }
